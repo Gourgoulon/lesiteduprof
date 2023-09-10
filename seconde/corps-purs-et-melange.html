@@ -141,7 +141,8 @@
             </h2>
             <div id="collapseSix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                distinguer composition massique de composition volumique, connaître la composition massique et volumique de l'air, trouver la composition d'un échantillon à partir de données expérimentale (ex: chromatogramme)
+                distinguer composition massique de composition volumique, connaître la composition massique et volumique de l'air, trouver la composition 
+                d'un échantillon à partir de données expérimentale (ex : chromatogramme)
               </div> 
             </div>
           </div>
@@ -153,7 +154,9 @@
             </h2>
             <div id="collapseSeven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
               <div class="accordion-body">
-                Mesurer une température de changement d’état, déterminer la masse volumique d’un échantillon, réaliser une chromatographie sur couche mince, mettre en œuvre des tests chimiques, pour identifier une espèce chimique et, le cas échéant, qualifier l’échantillon de mélange. Mesurer des volumes et des masses pour estimer la composition de mélanges.
+                Mesurer une température de changement d’état, déterminer la masse volumique d’un échantillon, réaliser une chromatographie sur
+                 couche mince, mettre en œuvre des tests chimiques pour identifier une espèce chimique et le cas échéant, qualifier l’échantillon 
+                 de mélange. Mesurer des volumes et des masses pour estimer la composition de mélanges.
               </div> 
             </div>
           </div>      
@@ -461,7 +464,7 @@
             </div>
 
 
-          <div class="alert alert-primary" role="alert">
+          <div class="alert alert-danger" role="alert">
             <h3>A retenir</h3>
             <ul>
               <li>
@@ -473,6 +476,7 @@
             </ul>
           </div>
 
+          <!--capacité expérimentale-->
           <div class="my-3"><h3>Capacité expérimentale</h3></div>
           <div class="accordion accordion-flush border" id="accordionFlush-test-chimique">
             <div class="accordion-item">
@@ -481,7 +485,7 @@
                   Mettre en oeuvre des tests chimiques
                 </button>
               </h2>
-              <div id="flush-collapseOne-test-chimique" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-espece-chimique">
+              <div id="flush-collapseOne-test-chimique" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-test-chimique">
                 <div class="accordion-body">
                   <p>Vous devrez être en mesure de mettre en oeuvre un protocole pour appliquer des tests chimiques en vous appuyant sur des documents mis a votre 
                     disposition. Par exemple, à l'aide du document ci-dessous on doit être capable d'élaborer un protocole pour
@@ -500,8 +504,93 @@
       <div class="container mt-5">
         <div class="container my-3" style="font-family:Arial, Helvetica, sans-serif;" id="masse-volumique"><h2>5. Masse Volumique</h2></div>
           <hr>
-        <div class="container">
-        </div>
+
+          <!--définitions-->
+          <div class="alert alert-primary" role="alert">
+            <h3>Définition</h3>
+            <div class="container mb-2">
+              <div><b>à apprendre</b></div>
+              C'est la masse par unité de volume d'un échantillon on la note \(\rho\) et elle se calcul comme suit : \( \rho = \frac{m}{V}\)
+              avec \(m\) la masse de l'échantillon et \(V\) le volume de l'échantillon
+            </div>
+            <div class="container">
+              <div><b>autrement dit :</b></div>
+              prenez un échantillon de quoique ce soit qui vous entoure, mesurer sa masse puis son volume, vous serez alors en mesure
+              de déterminer sa masse volumique en divisant sa masse par son volume
+            </div>
+          
+          </div>
+
+          <!--Attention-->
+          <div class="alert alert-warning" role="alert">
+             <b>Attention</b> : L'unité de volume peut être en litre(L) ou en mètre cube (\(m^3\)) il faut savoir faire la conversion. Rappel : \(1 m^3 = 1000L\)
+          </div>
+
+          <!--Exemples-->
+          <div class="alert alert-light">
+            <h3>Exemples</h3>
+            <ul>
+              <li>Si vous pesez un litre d'eau (\(V =\) 1 Litre) il fera exactement un kilogramme (\(m =\) 1 kg) donc la masse volumique de l'eau est : \(\rho_{eau} = 1 kg.L^{-1}\)</li>
+              <li>Si vous pesez un litre d'huile (\(V =\) 1 Litre) il fera exactement 920 grammes (\(m =\) 0,920 kg) donc la masse volumique de l'huile est : \(\rho_{huile} = 0,920 kg.L^{-1}\) c'est pour
+                ça que l'huile flotte sur l'eau
+              </li>
+              <li>Si vous pesez un mètre cube d'air (\(V = 1 m^3\)) il fera exactement 1,2 kilogramme (\(m =\) 1,2 kg) donc la masse volumique de l'air est : \(\rho_{air} = 1,2 kg.m^{-3}\)
+                 <div>je vous laisse faire la conversion mais nous retiendrons que la masse volumique de l'air est d'environ \(1 g.L^{-1}\) </div>
+              </li>
+            </ul>
+          </div>
+
+          <!--à retenir-->
+          <div class="alert alert-danger" role="alert">
+            <h3>à retenir</h3>
+            <ul>
+              <li>La masse volumique de l'eau est : \(\rho_{eau} = 1 kg.L^{-1}\)</li>
+              <li>La masse volumique de l'air est d'environ \(1 g.L^{-1}\) </li>
+            </ul>      
+          </div>
+
+        <!--capacité expérimentale-->
+        <div class="my-3"><h3>Capacité expérimentale</h3></div>
+          <div class="accordion accordion-flush border" id="accordionFlush-masse-volumique">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne-masse-volumique" aria-expanded="false" aria-controls="flush-collapseOne">
+                  Déterminer la masse volumique d'un échantillon
+                </button>
+              </h2>
+              <div id="flush-collapseOne-masse-volumique" class="accordion-collapse collapse" data-bs-parent="#accordionFlush-masse-volumique">
+                <div class="accordion-body">
+                 <b>Si l'échantillon est un liquide</b>
+                  <ol>
+                     <li>Posez un récipient gradué sur une balance et appuyer sur TARE</li>
+                     <div class="container my-2">
+                      <img class="img-fluid" src="images/masse-volumique/1.jpg" alt="schéma étape 1" style="max-width: min(400px,100%);">
+                     </div>
+                    <li>Versez y le liquide, mesurer le volume à l'aide des graduation et relevez la masse écrite sur la balance</li>
+                    <div class="container my-2">
+                      <img class="img-fluid" src="images/masse-volumique/2.jpg" alt="schéma étape 2" style="max-width: min(500px,100%);">
+                     </div>
+                    <li>En déduire la masse volumique en divisant la masse de l'échantillon par son volume </li>
+                    <div class="container my-2">
+                      <img class="img-fluid" src="images/masse-volumique/3.jpg" alt="schéma étape 3" style="max-width: min(400px,100%);">
+                     </div>
+                  </ol>
+
+                  <b>Si l'échantillon est un solide</b>
+                  <ol>
+                    <li>On obtient la masse en pesant directement le solide sur une balance</li>
+                    <li>On obtient le volume de l'échantillon solide en observant le volume d'eau déplacé lorsqu'on le plonge dans un récipient</li>
+                    <li>On peut procédé comme précédemment pour calculer la masse volumique</li>
+                  </ol>
+                  <i>schéma à venir...</i>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+
+
       </div> 
 
       
@@ -517,17 +606,6 @@
     
     <!--Bootstrap links-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-    <svg xmlns="http://www.w3.org/2000/svg" class="d-none">
-      <symbol id="check-circle-fill" viewBox="0 0 16 16">
-        <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
-      </symbol>
-      <symbol id="info-fill" viewBox="0 0 16 16">
-        <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16zm.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"/>
-      </symbol>
-      <symbol id="exclamation-triangle-fill" viewBox="0 0 16 16">
-        <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
-      </symbol>
-    </svg>
     
   </body>
 </html>
