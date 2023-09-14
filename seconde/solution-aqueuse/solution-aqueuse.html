@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>solutions-aqueuse</title>
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--LaTex-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <style>
+        a.def {
+            color: rgb(6, 30, 215);
+            text-decoration: none;
+        }
+        a.def:hover {
+            cursor: pointer;
+            color:rgba(28, 148, 148, 0.613);
+        }
+    </style>
+</head>
+<body>
+
+    <!--NavBar-->
+    <nav class="navbar sticky-top navbar-expand-lg bg-primary px-4" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html"><h1 style="font-size: 28px;">LeSiteDuProf</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="../seconde.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Seconde
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../corps-purs-et-melange.html">Corps purs et mélanges</a></li>
+                            <li><a class="dropdown-item" href="solution-aqueuse.html">Solution aqueuse</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">à suivre</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../../ressources.html">Ressources</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!--Title-->
+        <div class="container-fluid my-5">
+            <h1 class="text-center" style="font-family:Arial, Helvetica, sans-serif ; font-size: 75px; color:rgb(159, 38, 178);">Solutions aqueuses</h1>
+        </div>
+
+        <!--Notions et attendus-->
+        <div class="accordion" id="notion-attendu">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-target="#collapseOne-na" data-bs-toggle="collapse" aria-expanded="true" aria-controls="collapseOne-na">
+                        Solutions aqueuses : solvant et solutés
+                    </button>
+                </h2>
+                <div class="accordion-collapse collapse show" id="collapseOne-na" data-bs-parent="#notion-attendu">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Définition d'une solution aqueuse</li>
+                            <li>Identifier le soluté et le solvant d'une solution aqueuse à partir de sa composition ou de son mode opératoire de préparation.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-target="#collapseTwo-na" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseTwo-na">
+                        Concentration en masse
+                    </button>
+                </h2>
+                <div class="accordion-collapse collapse" id="collapseTwo-na" data-bs-parent="#notion-attendu">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Définir la concentration en masse et la <b>concentration en masse maximale</b> de soluté</li>
+                            <li>Déterminer la concentration en masse de soluté dans une solution aqueuse à partir du mode opératoire. </li>
+                            <li>Déterminer <b>la concentration en masse maximale</b> de soluté a partir de données expérimentale</li>
+                        </ul>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-target="#collapseThree-na" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseThree-na">
+                        Préparation d'une solution : Dissolution et Dilution
+                    </button>
+                </h2>
+                <div class="accordion-collapse collapse" id="collapseThree-na" data-bs-parent="#notion-attendu">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Différencier dissolution et dilution</li>      
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#collapseFour-na" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapsedFour-na">
+                        Dosage par étalonnage
+                    </button>
+                </h2>
+                <div class="accordion-collapse collapse" id="collapseFour-na" data-bs-parent="#notion-attendu">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Déterminer la valeur d’une concentration en masse à l’aide d’une <b>gamme d’étalonnage</b> (échelle de teinte ou mesure de masse volumique).</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#collapseFive-na" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapsedFive-na">
+                        Capacités expérimentales
+                    </button>
+                </h2>
+                <div class="accordion-collapse collapse" id="collapseFive-na" data-bs-parent="#notion-attendu">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Pour mieux comprendre la notions <b>d'incertitude</b> sur une mesure : Mesurer des masses pour étudier la variabilité du volume mesuré par une pièce de verrerie.</li>
+                            <li><b>choisir et utiliser la verrerie</b> adaptée pour préparer une solution par dissolution ou par dilution.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Le cours-->
+        <div class="container my-4 text-center" style="font-family: Arial, Helvetica, sans-serif; font-size: 64px;">Le cours</div>
+
+        <!--Solutions aqueuses-->
+        <div class="container mt-5">
+            <div class="container my-3" style="font-family:Arial, Helvetica, sans-serif;">
+                <h2>1. Solutions aqueuses, Solvant et soluté</h2>
+            </div>
+            <hr>
+
+            <!--Définitions-->
+            <div class="alert alert-primary" role="alert">
+                <h3>Définition</h3>
+                <hr>
+                <div><h4>Solution aqueuse</h4></div>
+                <a class="def" data-bs-toggle="popover" data-bs-placement="top" data-bs-content = "Mélange dans lequel on ne peut pas distinguer à l'oeil nu les différents constituants.">Mélange homogène</a> 
+                dans lequel l’eau est le constituant ultra-majoritaire.
+                Elle y joue le rôle de solvant, les espèces chimiques dissoutes sont qualifiées de solutés.
+                <div><i>(source : eduscol)</i></div>
+            </div>
+
+            <div class="alert alert-success" role="alert">
+                <h3>Remarques</h3>
+                <ul>
+                    <li>Les solutés peuvent être de nature solide, liquide ou gazeuse.</li>
+                    <li>Aqueux :  Emprunté du latin aquosus, dérivé de aqua « eau »</li>
+                </ul>
+                
+            </div>
+
+            <!--Exemples-->
+            <div class="alert alert-light mb-5" role="alert">
+                <h3>Exemples</h3>
+                <ul>
+                    <li>Tous les sodas sont des solutions aqueuses contenant, entre autres, du sucre comme soluté</li>
+                    <li>L'eau minérale dont les minéraux sont les solutés</li>
+                    <li>L'eau gazeuse dont le dioxyde de carbone est un soluté gazeux</li>
+                    <li> Pour les adeptes de la muscu : le "shaker de protéine" est une solution aqueuse dont le soluté est la protéine en poudre</li>
+                    <li>Le vin</li>
+                    <li>En réalité la plupart des boissons sont des solutions aqueuses</li>
+                </ul>
+                <hr>
+                <h3>Contre-Exemples</h3>
+                <ul>
+                    <li>Bien que l'essence soit un 
+                        <a class="def" data-bs-toggle="popover" data-bs-placement="top" data-bs-content = "Mélange dans lequel on ne peut pas distinguer à l'oeil nu les différents constituants.">Mélange homogène</a> 
+                        il ne contient pas majoritairement de l'eau. C'est une solution <b>MAIS PAS une solution AQUEUSE</b> 
+                    </li>
+                    <li>De l'eau pure n'est pas une solution aqueuse car ce n'est pas un mélange donc il n'y a pas de soluté</li>
+                </ul>
+            </div>
+
+
+        <!--Concentration -->
+        <div class="container my-3" style="font-family:Arial, Helvetica, sans-serif;">
+            <h2>2. Concentration en masse</h2>
+        </div>
+        <hr>
+        
+        
+
+            <!--Définition-->
+            <div class="alert alert-primary" role="alert">
+                <h3>Définitions</h3>
+                <hr>
+                <div><h4>Concentration en masse</h4></div>
+                Masse d’une espèce chimique dissoute par litre de solution. La concentration en masse peut s’exprimer en \(g.L^{-1}\).
+                <div class="mb-2"><i>(source : eduscol)</i></div>
+                <div><b>autrement dit :</b></div>
+                Divisez la masse de soluté \(m_{soluté}\) présente en solution, par le volume total \(V_{tot}\) de la solution. Vous aurez 
+                alors une quantité en \(g.L^{-1}\) qu'on appelle concentration en masse et qu'on note généralement \(C_m\) soit : 
+                <div class="my-2">\(C_m = \frac{m_{soluté}}{V_{tot}}\)</div>
+                <hr>
+                <div><h4>Concentration maximale d'un soluté</h4></div>
+                Masse maximale d’une espèce chimique qui peut être dissoute par litre de solution.
+                <div><i>(source : eduscol)</i></div>
+
+            </div>
+
+            <!--Remarque-->
+            <div class="alert alert-warning" role="alert">
+                <b>Attention :</b> Il faut bien faire la différence entre la
+                <a class="def" data-bs-placement="top" data-bs-toggle="popover" data-bs-content="Masse d'un échantillon divisée par le volume de cet échantillon">masse volumique</a> 
+                et la 
+                <a class="def" data-bs-placement="top" data-bs-toggle="popover" data-bs-content="masse du soluté divisée par le volume total de solution">concentration en masse</a>
+            </div>
+
+            <!--Exemples-->
+            <div class="alert alert-light" role="alert">
+                <h3>Exemples</h3>
+                <div><i>Source : exercice 22, page 29, Physique-chimie 2nde collection ESPACE édition BORDAS</i></div>
+                <div class="container my-3">
+                    <div class="row">
+                        <div class="col-md-6 col-sm-12">
+                            <img src="images/Ex22.jpeg" alt="Exercice 22 p29" class="img-fluid" style="max-width: min(100%, 400px);">
+                        </div>
+                        <div class="col-md-6 col-sm-12 pt-5">
+                        <div><b>Correction :</b></div>
+                            <ul>
+                                <li class="my-2">\(C_{m1} = \frac{17,2}{0,200} = 86 \ g.L^{-1}\)</li>
+                                <li class="my-2">\(C_{m2} = \frac{3,2}{0,100} = 32 \ g.L^{-1}\)</li>
+                                <li class="my-2">\(C_{m3} = \frac{0,750}{0,050} = 15 \ g.L^{-1}\)</li>
+                            </ul>
+                        </div>
+                    </div>           
+                </div>
+                <hr>
+                La <b>concentration maximale</b> du sel dans l’eau à 25 °C est égale à 360g de sel par litre de solution. c'est à dire qu'a 25°C on ne peut pas dissoudre
+                plus de 360 grammes de sel dans de l'eau.
+            </div>
+
+            <div class="container my-3" style="font-family:Arial, Helvetica, sans-serif;">
+                <h2>3. Préparer une solution</h2>
+            </div>
+            <hr>
+            Si on doit préparer une solution avec une concentration en masse de soluté donnée. Il peut y avoir deux cas de figure :
+            <ul>
+                <li>On dispose du solvant (l'eau distillée) et du soluté, dans ce cas on procède à une dissolution</li>
+                <li>On dispose déjà de la solution qu'on appelle solution mère mais la concentration en masse de soluté est supérieure a la 
+                    concentration voulue, on procède donc à une dilution
+                </li>
+            </ul>
+            <!--Prendre l'exemple de la grenadine-->
+            
+            
+
+
+        
+
+
+            <!--Capacité expérimentale-->
+            <div class="container">
+                <h3>Capacité expérimentale : Préparer une solution aqueuse</h3>
+                <div class="accordion accordion-flush" id="acoordion-1exp">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne-1exp" aria-expanded="false" aria-controls="collapseOne-1exp">
+                                Dissolution
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse" id="collapseOne-1exp" data-bs-parent="accordion-1exp">
+                            <div class="accordion-body">
+                                <a href="https://biblio.manuel-numerique.com/?openBook=9782047388365%3FY29udGV4dGVSZXNvdXJjZT17InR5cGUiOiJ2aWRlbyIsImlkcmVmIjoiaWRfbWVkaWFfRmlsZV8wNDczMzY3OF8yOTItMzI5X0ZpY2hlc19XaWRnZXRfNTAxMjZfeGh0bWwifQ%3D%3D">Vidéo explicative</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo-1exp" aria-expanded="false" aria-controls="collapseTwo-1exp">
+                                Dilution
+                            </button>
+                        </h2>
+                        <div class="accordion-collapse collapse" id="collapseTwo-1exp" data-bs-parent="accordion-1exp">
+                            <div class="accordion-body">
+
+                            </div>
+                        </div>
+                    </div>
+                
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+        </div>
+
+
+
+
+
+    </div>
+    
+
+
+
+
+
+
+
+
+
+    <!--Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!--Bootstrap popover-->
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+    
+
+</body>
+</html>
