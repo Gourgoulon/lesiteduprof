@@ -283,7 +283,7 @@
             </div>
 
             <!--Capacité expérimentale-->
-            <div class="container my-5">
+            <div class="container my-5 border-start border-info">
                 <h3>Capacité expérimentale</h3>
                 <div><i>Les vidéos proposées sont des compléments de cours accessibles depuis votre livre BORDAS numérique. Vous trouverez aussi
                     les protocoles écrits détaillés page 306 et 307 du livre.
@@ -326,10 +326,95 @@
 
         </div>
 
+        <div class="container my-3" style="font-family:Arial, Helvetica, sans-serif;">
+            <h2>4. Dosage par étalonnage</h2>
+        </div>
+        <hr>
+        N'ayez crainte cette méthode à l'appellation d'apparence compliquée ne présente en fait pas vraiment de difficultés.
 
+        <div class="container border-start border-success my-4 bg-success bg-opacity-10">
+            <h3>Analogie introductive</h3>
 
+            <div class="container">
+                Imaginez que je vous donne un cube et que je vous demande sans règle ni aucun autre appareil de mesure de me donner 
+                le volume de ce cube. A part me donner une intuition à vu d'oeil, vous n'en aurez aucune idée.
+            </div>
+            <div class="container">
+                <img src="/seconde/solution-aqueuse/images/dosage/1.jpg" alt="" class="img-fluid my-2" style="max-width: min(100%, 125px);">
+            </div>
+            <div class="container">
+                Maintenant si je vous donne en plus 5 ou 6 cubes en vous indiquant leur volume écrit en mètre cube dessus, 
+                vous serez en mesure de <b>comparer</b> le premier cube aux autres pour me donner un volume plus précis.
+            </div>
+            <div class="container">
+                <img src="/seconde/solution-aqueuse/images/dosage/2.jpg" alt="" class="img-fluid my-2" style="max-width: min(100%, 600px);">
+            </div>
+            <div class="container">
+                On peut donc conclure que le volume du cube inconnu est compris entre 2 et 3 mètres cube.
+            </div>
+            <div class="container">
+                <img src="/seconde/solution-aqueuse/images/dosage/3.jpg" alt="" class="img-fluid my-2" style="max-width: min(100%, 600px);">
+            </div>
 
+        </div>
 
+        Maintenant dans le cadre du cours nous allons utiliser le même raisonnement mais cette fois ci 
+        non plus pour des cubes dont on ne connait pas le volume mais <b>pour des solutions dont on ne connait pas la concentration en masse de soluté.</b>
+        
+        <div class="alert alert-warning" role="alert">
+            <h3>Mesurer une concentration ??</h3>
+            Le problème étant qu'on ne peut pas mesurer directement la concentration en masse de soluté d'une solution avec un appareil de mesure. 
+            Il n'existe pas de "concentrationmètre" donc on utilise des propriétés physiques reliées à la concentration. Par exemple plus la <b>couleur</b>
+            est intense plus la concentration en masse est élevée (pensez au sirop de grenadine). Et lorsque la solution est incolore on utilise la 
+            <a class="def" data-bs-toggle="popover" data-bs-placement="top" data-bs-content = "C'est la masse par unité de volume d'un échantillon">masse volumique</a>
+            car plus la concentration est élevée plus la masse volumique est grande.
+            
+        </div>
+        <div>Il y a deux cas de figure : </div>
+        <div class="container border-start border-primary bg-primary bg-opacity-10 p-3">
+            <h3 class="my-2">La solution est colorée</h3>
+            <hr>
+            Dans ce genre de solution, plus elle est concentrée, plus la couleur est intense. On a donc une propriété mesurable a l'oeil nu, reliée 
+            à la concentration
+            <div class="container">
+                <img src="/seconde/solution-aqueuse/images/echelle-de-teinte/1.jpg" alt="" class="img-fluid" style="max-width: min(100%, 50px);">
+            </div>
+            Dans ce cas vous aurez besoin d'une <b>échelle de teinte</b> dont les concentrations en masse de soluté sont données (ici écrite en \(g.L^{-1}\)):
+            <div class="container">
+                <img src="/seconde/solution-aqueuse/images/echelle-de-teinte/2.jpg" alt="" class="img-fluid" style="max-width: min(100%, 300px);">
+            </div>
+            Et en comparant la couleur de la solution de concentration inconnue à l'échelle de teinte, vous pouvez conclure que la concentration en masse de soluté inconnue est entre 1 et 2 grammes par litre.
+            <div class="container">
+                <img src="/seconde/solution-aqueuse/images/echelle-de-teinte/3.jpg" alt="" class="img-fluid" style="max-width: min(100%, 300px);">
+            </div>
+        </div>
+        <div class="container border-start border-primary bg-primary bg-opacity-10 p-3 my-2 mb-5">
+            <h3 class="my-2">Si la solution est incolore</h3>
+            <hr>
+            Nous utiliserons la masse volumique. En effet plus la 
+            <a class="def" data-bs-toggle="popover" data-bs-placement="top" data-bs-content="Masse d’une espèce chimique dissoute par litre de solution">concentration en masse</a>
+            est élevée plus 
+            <a class="def" data-bs-toggle="popover" data-bs-placement="top" data-bs-content = "C'est la masse par unité de volume d'un échantillon">masse volumique</a>
+            est grande.
+            <div class="container my-2">
+                <img src="/seconde/solution-aqueuse/images/incolore/1.jpg" alt="" class="img-fluid" style="max-width: min(100%, 75px);">
+            </div>
+            <div class="container">
+                Cette fois ci nous devons mesurer la masse volumique de solutions de concentrations connues afin d'établir une 
+                <b>courbe d'étalonnage</b> :
+            </div>
+            <div class="container my-2">
+                <img src="/seconde/solution-aqueuse/images/incolore/2.jpg" alt="" class="img-fluid" style="max-width: min(100%, 800px);">
+            </div>
+            <div class="container">
+                Puis nous mesurons la masse volumique de la solution de concentration inconnue. On en déduit la valeur de cette concentration inconnue
+                grâce a la courbe d'étalonnage.
+            </div>
+            <div class="containe my-2">
+                <img src="/seconde/solution-aqueuse/images/incolore/3.jpg" alt="" class="img-fluid" style="max-width: min(100%, 600px);">
+            </div>
+            Ici on en déduit une concentration en masse d'environ <span style="color: blue;">\(2,5 \ g.L^{-1}\)</span>
+        </div>
     </div>
     
 
