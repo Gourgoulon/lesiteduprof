@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signaux-sonores</title>
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--LaTex-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <style>
+        a.def {
+            color: rgb(6, 30, 215);
+            text-decoration: none;
+        }
+        a.def:hover {
+            cursor: pointer;
+            color:rgba(28, 148, 148, 0.613);
+        }
+    </style>
+</head>
+<body>
+
+
+    <!--NavBar-->
+    <nav class="navbar sticky-top navbar-expand-lg bg-primary px-4" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/index.html"><h1 style="font-size: 28px;">LeSiteDuProf</h1></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="/seconde/seconde.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Seconde
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/seconde/corps-purs-et-melange.html">Corps purs et mélanges</a></li>
+                            <li><a class="dropdown-item" href="/seconde/solution-aqueuse/solution-aqueuse.html">Solutions aqueuses</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="/seconde/signaux-sonores/signaux-sonores.html">Signaux sonores</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/ressources.html">Ressources</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Travaux-pratiques
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="/TP/compte-rendu.html">Compte-rendu</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">à suivre</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!--Title-->
+        <div class="container-fluid my-5">
+            <h1 class="text-center" style="font-family:Arial, Helvetica, sans-serif ; font-size: 75px; color:rgb(80, 94, 111);">Signaux sonores</h1>
+        </div>
+
+        <!--Notions et attendus-->
+        <div class="container">
+            <h2>Les Notions et Attendus</h2>
+        </div>
+        <div class="accordion" id="notion-attendu">
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-target="#collapseOne-na" data-bs-toggle="collapse" aria-expanded="true" aria-controls="collapseOne-na">
+                        Abordés au collège
+                    </button>
+                </h2>
+                <div class="accordion-collapse collapse show" id="collapseOne-na" data-bs-parent="#notion-attendu">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Vitesse de propagation</li>
+                            <li>Fréquences sonores (infrason, audible, ultrasons)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-target="#collapseTwo-na" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseTwo-na">
+                        Emission
+                    </button>
+                </h2>
+                <div class="accordion-collapse collapse" id="collapseTwo-na" data-bs-parent="#notion-attendu">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Décrire le principe de l’émission d’un signal sonore par la mise en vibration d’un objet.</li>
+                            <li>Décrire l’intérêt de la présence d’une caisse de résonance.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-target="#collapseTwoHalf-na" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseTwoHalf-na">
+                        Propagation
+                    </button>
+                </h2>
+                <div class="accordion-collapse collapse" id="collapseTwoHalf-na" data-bs-parent="#notion-attendu">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Expliquer le rôle du <b>milieu matériel</b></li>
+                            <li>citer une valeur approchée de la <b>vitesse de propagation dans l'air</b></li>
+                            <li>comparer cette vitesse à d'autres vitesses couramment rencontrées (ex : voiture, avion)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-target="#collapseThree-na" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseThree-na">
+                        Perception humaine
+                    </button>
+                </h2>
+                <div class="accordion-collapse collapse" id="collapseThree-na" data-bs-parent="#notion-attendu">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Expliquer la notion de <b>hauteur</b> d’un son audible.</li>
+                            <li>Expliquer la notion de <b>niveau d’intensité sonore</b>.</li>
+                            <li>Expliquer la notion de <b>timbre</b></li>
+                            <li>Exploiter une échelle de niveau d’intensité sonore et citer les dangers inhérents à l’exposition sonore.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-target="#collapseThree2-na" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseThree2-na">
+                        Perception numérique
+                    </button>
+                </h2>
+                <div class="accordion-collapse collapse" id="collapseThree2-na" data-bs-parent="#notion-attendu">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Définir et déterminer la <b>période</b>, la <b>fréquence</b> d’un signal sonore notamment à partir de sa <b>représentation temporelle</b>.</li>
+                            <li>lier qualitativement l'amplitude du signal et <b>l'intensité sonore</b></li>
+                            <li>Connaître la relation entre période et fréquence</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-target="#collapseThree3-na" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseThree3-na">
+                        Lier perception humaine et perception numérique
+                    </button>
+                </h2>
+                <div class="accordion-collapse collapse" id="collapseThree3-na" data-bs-parent="#notion-attendu">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Relier qualitativement la fréquence à la hauteur d’un son audible.</li>
+                            <li>Citer les domaines de fréquences des sons audibles, des infrasons et des ultrasons.</li>
+                            <li>Relier qualitativement intensité sonore et niveau d’intensité sonore.</li>
+                            <li>lien entre forme du signal et timbre</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" data-bs-target="#collapseFive-na" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapsedFive-na">
+                        Capacités expérimentales
+                    </button>
+                </h2>
+                <div class="accordion-collapse collapse" id="collapseFive-na" data-bs-parent="#notion-attendu">
+                    <div class="accordion-body">
+                        <ul>
+                            <li>Mesurer la vitesse d'un signal sonore</li>
+                            <li>Utiliser une chaîne de mesure pour obtenir des informations sur les vibrations d’un objet émettant un signal sonore.</li>
+                            <li>Mesurer la période d’un signal sonore périodique.</li>
+                            <li>Utiliser un dispositif comportant un microcontrôleur pour produire un signal sonore.</li>
+                            <li>Enregistrer et caractériser un son (hauteur, timbre, niveau
+                                d’intensité sonore, etc.) à l’aide d’un dispositif expérimental dédié, d’un smartphone, etc.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--Le cours-->
+        <div class="container my-4 text-center" style="font-family: Arial, Helvetica, sans-serif; font-size: 64px;">Le cours</div>
+
+        
+        <div class="container mt-5">
+
+            <!--Emission-->
+            <div class="container my-3" style="font-family:Arial, Helvetica, sans-serif;">
+                <h2>1. Emission du son</h2>
+            </div>
+            <hr>
+            
+            <div class="container border-start border-primary bg-opacity-10 bg-primary my-3 p-4">
+                <h3>Principe d'émission</h3>
+                Lorsqu'un objet est mis en vibration dans un milieu matériel il émet une onde sonore. 
+                <hr>
+                <h3>Intérêt d'une caisse de résonance</h3>
+                L'interêt principal d'une caisse de résonance est d'amplifier un son. Elle modifie également <b>le timbre</b> et l'esthétique d'un instrument.
+                <div>
+                    Cette vidéo l'illustre très bien avec un diapason et une corde tendue.
+                    <div class="mt-2" style="overflow: scroll;">
+                       <iframe src="https://ladigitale.dev/digiview/inc/video.php?videoId=2UWo-Chhf0o&vignette=https://i.ytimg.com/vi/2UWo-Chhf0o/hqdefault.jpg&debut=0&fin=98&largeur=200&hauteur=113" allowfullscreen frameborder="0"></iframe>
+                    </div>
+                </div>
+            </div>
+            <div class="container border-start border-success bg-success bg-opacity-10 my-3 p-4">
+                <h3>Vocabulaire</h3>
+                <b>Milieu matériel :</b> milieu composé de matière. En opposition à la notion de vide. par exemple : l'air est un milieu matériel, l'eau aussi,
+                    cependant l'espace entre les astres est principalement vide ce n'est donc pas un milieu matériel.
+                <hr>
+                <b>Onde sonore :</b> perturbation qui se propage dans un milieu. Généralement sans déplacement de matière. Par exemple le son est une onde,
+                 la lumière aussi.
+            </div>
+            <div class="alert alert-light" role="alert">
+                <h3>Exemples</h3>
+                <ul>
+                    <li>
+                        La corde d'une guitare émet un son en vibrant. Ce son est amplifié par 
+                        la caisse de résonance qui vibre à son tour et l'onde sonore se propage dans un milieu matériel qui est l'air.
+                    </li>
+                    <li>
+                        Pour émettre un son avec notre voix, nos cordes vocales vibrent puis plusieurs éléments dont notre gorge et notre bouche jouent le rôle
+                        de caisse de résonance puis l'onde sonore se propage dans l'air.
+                    </li>
+                    <li>
+                        Tout comme les êtres humains, certains animaux comme les cachalots sont capables d'émettre un son. Le son se propage ensuite dans l'eau qui est
+                        un milieu matériel.
+                    </li>
+                </ul>
+            </div>
+
+            <div class="container border-start border-warning bg-opacity-10 bg-warning p-2">
+                <h3>Pour en savoir plus</h3>
+                <div><b>sur la physique d'une guitare :</b></div>
+                <div class="mt-2" style="overflow: scroll;">
+                    <iframe src="https://ladigitale.dev/digiview/inc/video.php?videoId=HQXK2KnXouo&vignette=https://i.ytimg.com/vi/HQXK2KnXouo/hqdefault.jpg&debut=0&fin=410&largeur=200&hauteur=113" allowfullscreen frameborder="0"></iframe>
+                </div>
+                <div><b>sur les cachalots :</b></div>
+                <div class="mt-2" style="overflow: scroll;">
+                    <iframe src="https://ladigitale.dev/digiview/inc/video.php?videoId=g3xXM_tycCU&vignette=https://i.ytimg.com/vi/g3xXM_tycCU/hqdefault.jpg&debut=0&fin=459&largeur=200&hauteur=113" allowfullscreen frameborder="0"></iframe>
+                </div>
+            </div>
+
+
+            <!--Propagation-->
+            <div class="container mb-3 mt-5" style="font-family:Arial, Helvetica, sans-serif;">
+                <h2>2. Propagation</h2>
+            </div>
+            <hr>
+            <div class="container border-start border-primary bg-opacity-10 bg-primary my-3 p-4">
+                <h3>Rôle du milieu matériel</h3>
+                Un onde sonore a besoin de matière pour se propager. Le milieu matériel permet donc à une onde sonore de se propager.
+                <hr>
+                <h3>Vitesse de propagation</h3>
+                La vitesse de propagation du son dépend de la température de la pression et plus généralement du milieu matériel dans lequel l'onde sonore se
+                propage.
+                <div>A une température de 20°C et à la pression atmosphérique le son se propage à une vitesse d'environ 340 m/s ce qui correspond 
+                    approximativement à 1200 km/h</div>
+                <div>A titre de comparaison la vitesse maximale autorisée sur l'autoroute est de 130 km/h.</div>
+                <div>Les avions de ligne vont moins vite que le son puisqu'ils vont à un vitesse autour de 1000km/h tandis que
+                    les avions de chasse comme les F-22 Raptor dépassent largement la vitesse du son allant jusqu'à 2400 km/h.
+                </div>
+            </div>
+
+            <div class="container border-start border-warning bg-opacity-10 bg-warning p-2">
+                <h3>Pour en savoir plus</h3>
+                Pour mieux comprendre ce qu'est vraiment le son :
+                <div class="mt-2" style="overflow: scroll;">
+                    <iframe src="https://ladigitale.dev/digiview/inc/video.php?videoId=hmMak2lMJNs&vignette=https://i.ytimg.com/vi/hmMak2lMJNs/hqdefault.jpg&debut=0&fin=370&largeur=200&hauteur=113" allowfullscreen frameborder="0"></iframe>
+                </div>
+                <hr>
+                <h3>Le mur du son</h3>
+                Lorsqu'un avion dépasse la vitesse du son on dit qu'il franchit le mur du son. Cela signifie qu'on ne peut pas entendre l'avion à moins d'être derrière lui.
+                <div>Le spectacle est assez impressionnant : </div>
+                <div class="mt-2" style="overflow: scroll;">
+                    <iframe src="https://ladigitale.dev/digiview/inc/video.php?videoId=acoTgXcW8fg&vignette=https://i.ytimg.com/vi/acoTgXcW8fg/hqdefault.jpg&debut=13&fin=27&largeur=200&hauteur=113" allowfullscreen frameborder="0"></iframe>
+                </div>
+            </div>
+
+            <!--La perception humaine-->
+            <div class="container mb-3 mt-5" style="font-family:Arial, Helvetica, sans-serif;">
+                <h2>3. Perception par l'oreille humaine</h2>
+            </div>
+            <hr>
+
+            <div class="container border-start border-primary bg-opacity-10 bg-primary my-3 p-4">
+                <h3>Hauteur</h3>
+                La hauteur d'un son se réfère à la manière dont nous percevons un son comme étant plus aigu ou plus grave.
+                <hr>
+                <h3>Niveau d'intensité sonore</h3>
+                Plus le niveau d'intensité sonore est élevé plus le son perçu est fort. C'est une grandeur qui s'exprime en décibels (dB).
+                <hr>
+                <h3>Le timbre</h3>
+                Le timbre nous permet de reconnaître de quel instrument provient un son. Plusieurs instruments peuvent émettre la même note mais ne pas être perçu de la même manière. 
+                Imaginez un "do" joué par un piano, vous n'entendrez jamais
+                le même son qu'un "do" joué par une guitare ou encore par une flûte. Chaque instrument est donc associé à un timbre qui le rend unique. Cela vaut aussi pour
+                la voix, votre timbre de voix permet de vous identifier.
+            </div>
+
+            <div class="container border-start border-info bg-opacity-10 bg-info my-3 p-4">
+                <h3>Activité </h3>
+                <div class="card">
+                    <div class="card-header">
+                        Document
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title"> Le niveau d'intensité sonore (source : Bruitparif)</h5>
+                      <p class="card-text">Le document ci-joint contient une échelle d'intensité sonore ainsi que des informations sur les dangers inhérents à l'exposition sonore.
+                        Vous devez être en capacité de d'exploiter ce document.</p>
+                      <a href="https://www.bruitparif.fr/images/pages-en-tete-400-bruitpedia-400-l-echelle-des-decibels-1.png" target="_blank" class="btn btn-primary">Voir le doc</a>
+                    </div>
+                  </div>
+            </div>
+
+            
+
+
+            
+            
+
+
+
+
+
+
+
+
+
+        </div>
+
+        <div class="container" style="height:200px"></div>
+
+    </div>
+
+
+
+
+
+    <!--Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!--Bootstrap popover-->
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+    
+</body>
+</html>
