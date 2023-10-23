@@ -42,8 +42,8 @@ class Header extends HTMLElement {
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a class="dropdown-item" href="/DS/Redaction-DS.html">Rédaction</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="/DS/Sujet-et-corrige.html">Sujets et corrigés</a></li>
+                                <li><a class="dropdown-item" href="/DS/notes.html">Notes</a></li>
                             </ul>
                         </li>
                         <li class="nav-item">
