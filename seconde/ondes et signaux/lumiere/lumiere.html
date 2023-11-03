@@ -376,7 +376,7 @@
                 </div>
 
 
-                <div class="container ps-4 mt-4 text-center" style="font-size: 30px; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; background: #ef8282;">
+                <div class="container ps-4 mt-4 text-center fs-2" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; background: #ef8282;">
                     Comment interpréter et construire ce schéma
                 </div>
                 
@@ -520,15 +520,16 @@
                         <div>Sur un schéma d'optique on la représente par un segment fléché à chaque extrémité. Plusieurs points sont importants, 
                             on appelle :
                             <ul>
-                                <li>O : Le centre de la lentille mince convergente, 
-                                    c'est le point d'intersection entre la lentille et l'axe optique.
+                                <li> <b>O</b> : Le centre de la lentille mince convergente, 
+                                    c'est le point d'intersection entre la lentille et l'axe optique. 
+                                    Tout rayon lumineux passant par ce point n'est pas dévié.
                                 </li>
                                 <li>
-                                    F : Le foyer objet de la lentille, tout rayon lumineux passant par ce point ressort de la lentille
+                                    <b>F</b> : Le foyer objet de la lentille, tout rayon lumineux passant par ce point ressort de la lentille
                                     parallèle a l'axe optique
                                 </li>
                                 <li>
-                                    F' : Le foyer image, tout rayon lumineux parallèle à l'axe optique ressort de la lentille en passant 
+                                    <b>F'</b> : Le foyer image, tout rayon lumineux parallèle à l'axe optique ressort de la lentille en passant 
                                     par ce point
                                 </li>
                             </ul>
@@ -549,9 +550,104 @@
 
             </div>
 
+            <div class="container border-start border-success bg-success bg-opacity-10 my-2 p-3">
+                <h3 class="mb-3" >Méthode : Former l'image d'un objet avec une lentille</h3>
 
-            <!-- Schéma -->
+                Trois règles déjà énoncées sont à respecter : 
+                <ul>
+                    <li>Le rayon passant par O n'est pas dévié</li>
+                    <li>Le rayon parallèle à l'axe optique sort en passant par F'</li>
+                    <li>Le rayon passant par F sort parallèle à l'axe optique</li>
+                </ul>
 
+                <div id="carouselExampleDark" class="carousel carousel-dark slide mb-4">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img src="/seconde/ondes et signaux/lumiere/image/lentille-1.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Situation initiale</h5>
+                          <p>On aligne l'objet AB et la lentille</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img src="/seconde/ondes et signaux/lumiere/image/lentille-2.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Premier rayon</h5>
+                          <p>On peut toujours tracer le rayon passant par O qui n'est pas dévié</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/seconde/ondes et signaux/lumiere/image/lentille-3.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Foyer image</h5>
+                          <p>Traçer le rayon parallèle à l'axe optique qui sortira de la lentille en passant par le foyer image F'</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/seconde/ondes et signaux/lumiere/image/lentille-4.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Former l'image</h5>
+                          <p>
+                            L'image du point B se forme la ou les rayons se croisent pour former le point B'. 
+                            On peut donc savoir ou sera l'image A' de A en traçant la flèche qui relie B' à l'axe optique.
+                            <b>A'B' est l'image de AB.</b>
+                          </p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <img src="/seconde/ondes et signaux/lumiere/image/lentille-5.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                          <h5>Foyer objet</h5>
+                          <p>
+                            On peut vérifier que tous les rayons émis par B se rejoignent en B' en traçant le dernier rayon qui passe
+                            par le foyer objet F et ressort parallèle à l'axe optique.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+
+            <!--Objet et image-->
+            <div class="container my-3" style="font-family:Arial, Helvetica, sans-serif;">
+                <h2>4. La notion de grandissement</h2>
+            </div>
+            <hr>
+            Comme on peut le constater sur les schémas précédents la taille de l'image n'est pas la même que celle de l'objet.
+
+            <div class="container border-start border-primary bg-primary bg-opacity-10 p-3 mt-2">
+                <h3>Le Grandissement</h3>
+                On appelle grandissement le rapport entre la taille de l'image A'B' et la taille de l'objet AB. On le note 
+                \(\gamma \) <i>("gamma")</i> et pour avoir sa valeur on utilise la formule suivante :
+                <div class="my-3 ms-4" style="font-size: 20px;"> \( \gamma = \frac{A'B'}{AB} \)</div>
+                avec \(A'B'\) la longueur de l'image et \(AB\) la longueur de l'objet.
+            </div>
+            
+            <div class="alert alert-light" role="alert">
+                <h3>Exemple</h3>
+                <ul>
+                    <li>Si \(\gamma = 0,5\) cela veut dire que l'image est 2 fois plus petite que l'objet</li>
+                    <li>Si \(\gamma = 1\) cela veut dire que l'image fait la même taille que l'objet</li>
+                    <li>Si \(\gamma = 2\) cela veut dire que l'image est 2 fois plus grande que l'objet</li>
+                </ul>
+            </div>
+
+            
 
 
 
