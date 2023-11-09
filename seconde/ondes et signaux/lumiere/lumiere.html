@@ -21,7 +21,11 @@
             cursor: pointer;
             color:rgba(28, 148, 148, 0.613);
         }
+
     </style>
+    <link rel='stylesheet' href='https://academo.org/scss/main.css?v=1699525094377'>
+    <link rel="stylesheet" href="/seconde/ondes et signaux/lumiere/style.css">
+
 </head>
 <body>
 
@@ -88,7 +92,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-target="#collapseTwoHalf-na" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseTwoHalf-na">
-                        Perception humaine : Oeil et instruments d'optique
+                        Oeil et instruments d'optique
                     </button>
                 </h2>
                 <div class="accordion-collapse collapse" id="collapseTwoHalf-na" data-bs-parent="#notion-attendu">
@@ -108,7 +112,7 @@
             <div class="accordion-item">
                 <h2 class="accordion-header">
                     <button class="accordion-button collapsed" type="button" data-bs-target="#collapseThree-na" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseThree-na">
-                        Perception numérique : La notion de spectre
+                        La notion de spectre
                     </button>
                 </h2>
                 <div class="accordion-collapse collapse" id="collapseThree-na" data-bs-parent="#notion-attendu">
@@ -655,12 +659,165 @@
                     <li>Si \(\gamma = - 2\) cela veut dire que l'image est 2 fois plus grande que l'objet et qu'elle est renversée.</li>
                 </ul>
             </div>
-            <!--Objet et image-->
+
+            <!--  
+            <div class="container my-4">
+                Jusqu'ici nous avons vu comment se comporte la lumière mais nous n'avons pas étudié sa nature. Nous savons comment elle interagit avec la matière, comment 
+                elle peut être émise mais nous ne savons pas vraiment ce qu'est la lumière.
+            </div>
+
             <div class="container my-3" style="font-family:Arial, Helvetica, sans-serif;">
-                <h2>5.</h2>
-                
+                <h2>5. La lumière comme une onde</h2>               
             </div>
             <hr>
+
+            <div class="alert alert-success" role="alert">
+                <h3>Rappel</h3>
+                Au chapitre précédent nous avons étudié les ondes sonores, on a pu représenter ces
+                <a class="def" data-bs-placement="top" data-bs-toggle="popover" data-bs-content="perturbation qui se propage dans un milieu">ondes</a> 
+                en fonction du temps pour déterminer si le signal était périodique et ainsi en déduire leur période et leur fréquence. Ces fréquences étaient associées à 
+                la hauteur du son que notre oreille perçoit.
+            </div>
+
+            <div class="container border-start border-primary bg-primary bg-opacity-10 my-2 p-3">
+                La lumière est aussi une onde à laquelle on peut associer une fréquence qui est relié à sa <b>longueur d'onde</b>. 
+            </div>
+                -->
+
+
+            <!--longueur d'onde-->
+            <div class="container my-3" style="font-family:Arial, Helvetica, sans-serif;">
+                <h2>5. Couleur et longueur d'onde</h2>                
+            </div>
+            <hr>
+            
+            <div class="container border-start border-primary bg-info bg-opacity-10 my-2 p-3">
+                <h3>C'est quoi une couleur ?</h3>
+                Chaque couleur qu'on perçoit est associée à ce qu'on appelle une longueur d'onde. Cette longueur d'onde est notée \(\lambda\) est elle s'exprime la plupart 
+                du temps en nanomètre (\(1 \ \text{nm} = 10^{-9} \ \text{m}\)).
+                Sur le logiciel ci-dessous proposé par academo.org vous pouvez constater visuellement la correspondance entre longueur d'onde et couleur.
+
+                
+            </div>
+
+            <div class="container my-4">
+                <div class="container">
+                    <!-- partial:index.partial.html -->
+                    <div id="demo">
+                    </div>
+    
+                    <div id="ui-container">
+                    </div>
+    
+                    <!-- partial -->
+                    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+                    <script src='https://academo.org/js/demoConcat.js?v=1699525094377'></script>
+                    <script src='https://academo.org/js/lib/chroma.min.js'></script><script  src="./script.js"></script>
+    
+                </div>
+                <a href="https://academo.org/demos/wavelength-to-colour-relationship/" target="_blank">Find out more at Academo.org</a>
+                <div class="container me-4" style="font-size: 8px;">
+                THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                SOFTWARE.
+                </div>
+            </div>
+            
+
+            <div class="container my-3" style="font-family:Arial, Helvetica, sans-serif;">
+                <h2>6. Monochromatique et Polychromatique</h2>                
+            </div>
+            <div class="container border-start border-primary bg-info bg-opacity-10 my-2 p-3">
+                <h3>Rayonnement monochromatique</h3>
+                Monochromatique est constitué du préfixe "mono" (unique) suivi de "chromatique" (couleur). On parle de rayonnement monochromatique lorsque la lumière émise 
+                ne contient qu'une seule longueur d'onde
+                <hr>
+                <h3>Rayonnement polychromatique</h3>
+                Polychromatique est constitué du préfixe "poly" (plusieurs) suivi de "chromatique" (couleur). On parle de rayonnement polychromatique lorsque la lumière émise 
+                contient plusieurs longueurs d'ondes
+            </div>
+
+            <div class="container border-success border-start bg-success bg-opacity-10 my-2 p-3">
+                <h3>Analogie avec le son</h3>
+                Lorsqu'on a étudié le son on a vu qu'on pouvait émettre un son qui ne contient qu'une seule fréquence à l'aide d'un diapason. En revanche si on écoute un
+                orchestre, le son perçu sera beaucoup plus riche en fréquence car tous les musiciens ne jouerons pas tous la même note et pas tous avec le même instrument.
+                On peut avoir le même raisonnement avec la lumière. On peut émettre un rayonnement monochromatique à l'aide d'un laser. En revanche la plupart des sources 
+                lumineuses contiennent plusieurs longueurs d'onde et notamment les sources de lumière blanche qui émettent toutes les longueurs d'ondes visibles 
+                comme on peut le constater grâce a la dispersion par un prisme.
+            </div>
+
+            <!--Dispersion-->
+            <div class="container my-3" style="font-family:Arial, Helvetica, sans-serif;">
+                <h2>7. Dispersion de la lumière par un prisme</h2>                
+            </div>
+            <hr>
+
+            <div class="container border-start border-primary bg-primary bg-opacity-10 my-2 p-3">
+                <h3>Description</h3>
+                Lorsqu'on émet un rayon de lumière blanche sur un prisme, on observe à la sortie du prisme toutes les couleurs que l'être humain peut voir.
+                <hr>
+                <h3>Explication</h3>
+                La lumière blanche est un rayonnement polychromatique composée de toutes les longueurs d'ondes visibles à l'oeil nu. Le prisme est un élément dispersif capable 
+                de séparer et révéler les différentes longueurs d'onde contenu dans un rayon lumineux.
+            </div>
+
+            <!-- Spectre d'emission -->
+            <div class="container my-3" style="font-family:Arial, Helvetica, sans-serif;">
+                <h2>8. Les spectres d'émission</h2>                
+            </div>
+            <hr>
+
+            <div class="container border-start border-primary bg-primary bg-opacity-10 my-2 p-3">
+            <h3>La notion de spectre d'emission</h3>
+            Le spectre d'émission indique toute les longueurs d'ondes qui composent le rayonnement d'une source de lumière.
+            </div>
+
+            <div class="alert alert-light" role="alert">
+                <h3>Exemples</h3>
+                <hr>
+                <div style="font-size: 1.3rem;"><b>Le spectre émis par un corps chaud</b></div>
+
+                C'est un spectre continu qui dépend de la température du corps. Plus il est chaud plus il contient de longueur d'onde visibles. L'echelle gradué correspond
+                à la valeur de la longueur d'onde en nanomètre. Lorsqu'on fait chauffer progressivement le filament dans une ampoule il commence par émettre de la lumière orange 
+                pour progressivement émettre de la lumière blanche qui contient toutes les longueurs d'ondes visibles.
+                <div style="width: min(100%, 700px)">
+                    <img src="./image/hot-spectrum.jpg" alt="" class="img-fluid">
+                </div>
+                <a href="https://commons.wikimedia.org/wiki/File:Visible-spectrum-400-700-nm.png">Bech</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+
+                <div class="mt-4" style="font-size: 1.3rem;"><b>Le spectre émis par un laser</b></div>
+                Les laser émettent un rayonnement quasi monochromatique. Ici nous prenons l'exemple d'un laser rouge dont le spectre présente une seule raie de longueur d'onde
+                associée à la couleur rouge.
+
+                <div style="width: min(100%, 700px)">
+                    <img src="./image/laser-spectrum.jpg" alt="" class="img-fluid">
+                </div>
+
+
+                <div style="font-size: 1.3rem;"><b>Spectre de raie d'un gaz</b></div>
+                Certaines lampes qu'on appelle "lampes à vapeur" fonctionnent suivant ce principe : Lorsqu'on chauffe un gaz à basse pression, il émet de la lumière.
+                Le spectre de la lumière émise s'appelle <b>spectre de raies</b> et permet d'identifier le gaz présent dans la lampe.
+
+                <div class="mt-4">Spectre d'une lampe à vapeur d'Hydrogène :</div>
+
+                <div style="width: min(100%, 700px)">
+                    <img src="./image/Hydrogen-spectrum.jpg" alt="" class="img-fluid">
+                </div>
+
+
+
+            </div>
+
+
+           
+
+
+
+
 
             
 
