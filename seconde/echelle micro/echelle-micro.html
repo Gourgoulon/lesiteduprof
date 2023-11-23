@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>echelle microscopique</title>
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--LaTex-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <script src="/components/header.js" type="text/javascript" defer></script>
+    <style>
+        a.def {
+            color: rgb(6, 30, 215);
+            text-decoration: none;
+        }
+        a.def:hover {
+            cursor: pointer;
+            color:rgba(28, 148, 148, 0.613);
+        }
+    </style>
+</head>
+<body>
+
+        <header-component></header-component>
+
+        <div class="container">
+            <!--Title-->
+            <div class="container-fluid my-5">
+                <h1 class="text-center" style="font-family:Arial, Helvetica, sans-serif ; font-size: 50px; color:rgb(8, 89, 85);">L'échelle microscopique</h1>
+            </div>
+            <!--Notions et attendus-->
+            <div class="container">
+                <h2>Les Notions et Attendus</h2>
+            </div>
+            <div class="accordion" id="notion-attendu">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-target="#collapseOne-na" data-bs-toggle="collapse" aria-expanded="true" aria-controls="collapseOne-na">
+                            Abordés au collège
+                        </button>
+                    </h2>
+                    <div class="accordion-collapse collapse show" id="collapseOne-na" data-bs-parent="#notion-attendu">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>molécules, atomes et ions</li>
+                                <li>constituants de l'atome et du noyau</li>
+                                <li>formule chimique d'une molécule</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-target="#collapseTwo-na" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseTwo-na">
+                            Atomes : constitution
+                        </button>
+                    </h2>
+                    <div class="accordion-collapse collapse" id="collapseTwo-na" data-bs-parent="#notion-attendu">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Citer l’ordre de grandeur de la valeur de la taille d’un atome.</li>
+                                <li>Comparer la taille et la masse d’un atome et de son noyau.</li>
+                                <li>Connaître l'ordre de grandeur de la masse et charge électrique d’un électron, d’un proton et d’un neutron</li>
+                                <li>charge électrique élémentaire</li>
+                                <li>neutralité de l’atome</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-target="#collapseTwoHalf-na" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseTwoHalf-na">
+                            Atomes : écriture et représentation
+                        </button>
+                    </h2>
+                    <div class="accordion-collapse collapse" id="collapseTwoHalf-na" data-bs-parent="#notion-attendu">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Établir l’écriture conventionnelle d’un noyau à partir de sa composition et inversement.</li>
+                                <li>Configuration électronique (1s, 2s, 2p, 3s, 3p) d’un atome à l’état fondamental et sa position dans le tableau périodique (blocs s et p)</li>
+                                <li>Déterminer les électrons de valence d’un atome (Z ⩽ 18) à partir de sa configuration électronique à l’état fondamental ou de sa position dans le tableau périodique.</li>
+                                <li>Associer la notion de famille chimique à l’existence de propriétés communes et identifier la famille des gaz nobles.</li>
+                                <li>numéro atomique et nombre de masse</li> 
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-target="#collapseThree-na" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseThree-na">
+                            Atomes : stabilité
+                        </button>
+                    </h2>
+                    <div class="accordion-collapse collapse" id="collapseThree-na" data-bs-parent="#notion-attendu">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>Établir le lien entre stabilité chimique et configuration électronique de valence d’un gaz noble.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-target="#collapseThree2-na" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseThree2-na">
+                            Ions
+                        </button>
+                    </h2>
+                    <div class="accordion-collapse collapse" id="collapseThree2-na" data-bs-parent="#notion-attendu">
+                        <div class="accordion-body">
+                            <ul>
+                               <li>Déterminer la charge électrique d’ions monoatomiques courants à partir du tableau périodique.</li>
+                               <li>Nommer les ions : \( H^+, Na^+, K^+, Ca^{2+}, Mg^{2+}, Cl^-, F^- \) ; écrire leur formule à partir de leur nom.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-target="#collapseThree3-na" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapseThree3-na">
+                            Molécules
+                        </button>
+                    </h2>
+                    <div class="accordion-collapse collapse" id="collapseThree3-na" data-bs-parent="#notion-attendu">
+                        <div class="accordion-body">
+                            <ul>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-target="#collapseFive-na" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapsedFive-na">
+                            Composé ionique
+                        </button>
+                    </h2>
+                    <div class="accordion-collapse collapse" id="collapseFive-na" data-bs-parent="#notion-attendu">
+                        <div class="accordion-body">
+                            <ul>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" data-bs-target="#collapse6-na" data-bs-toggle="collapse" aria-expanded="false" aria-controls="collapsed6-na">
+                            Du microscopique au macroscopique : La mole
+                        </button>
+                    </h2>
+                    <div class="accordion-collapse collapse" id="collapse6-na" data-bs-parent="#notion-attendu">
+                        <div class="accordion-body">
+                            <ul>
+                               
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container my-5">
+                <h2>1. Les Atomes et les ions</h2>
+                    <h3>A. Les Atomes</h3>
+                        <div class="mt-2" style="overflow: scroll;">
+                            <iframe src="https://ladigitale.dev/digiview/inc/video.php?videoId=7WhRJV_bAiE&vignette=https://i.ytimg.com/vi/7WhRJV_bAiE/hqdefault.jpg&debut=0&fin=121&largeur=16&hauteur=9" allowfullscreen frameborder="0"></iframe>
+                            <div style="font-style: italic; font-size: 9px;">Source : Voyage into the world of atoms, Chaine Youtube du CERN </div>
+                        </div>
+                
+                        <div class="container border-start border-primary bg-primary bg-opacity-10 my-3 p-4">
+                            <h4>Constitution : C'est quoi un atome ?</h4>
+                                Un atome est composé d'un noyau et d'un cortège électronique. La taille d'un atome est d'environ \(10^{-10} \ m \) c'est à dire
+                                \( 0,0000000001 \ m \). Au centre de l'atome, le noyau est constitués de <b>nucléons</b> qu'on appelle protons et neutrons. Autour de ce noyau
+                                d'autres particules nommées électrons forment le <b>cortège électronique</b> de l'atome. Les caractéristiques de toutes ces particules 
+                                sont résumées dans le tableau ci dessous.
+
+                                <div class="text-center my-3" style="width: 50%;">
+                                    <table class="table table-warning table-striped table-bordered">
+                                        <thead>
+                                          <tr>
+                                            <th scope="col">particules</th>
+                                            <th scope="col">masse (kg)</th>
+                                            <th scope="col">charge (C)</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr>
+                                            <th scope="row">électron</th>
+                                            <td>\( \sim 10^{-30}\)</td>
+                                            <td>\(-e\)</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">proton</th>
+                                            <td>\( \sim 10^{-27}\)</td>
+                                            <td>\(e\)</td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row">neutron</th>
+                                            <td>\( \sim 10^{-27}\)</td>
+                                            <td>\(0\)</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                </div>
+
+                                \(e = 1,6 \times 10^{-19} \ C\) est appelé charge électrique élémentaire son unité est le "coulomb" notée \(C\). La charge de l'atome est égale à la somme des charges de 
+                                toutes ses particules. Une des propriété importante qui différencie les atomes des ions est la <b>neutralité de l'atome</b>. En effet 
+                                dans un atome il y a autant de protons que d'électrons, donc la charge d'un atome est nulle, on dit qu'il est neutre.
+
+                                <hr>
+
+
+                            <h4>Ecriture et représentation : Comment écrire un atome ?</h4>
+                                Chaque atome est associé à un <b>élément chimique</b>. Le nombre de proton dans le noyau détermine à quel élément chimique est associé 
+                                un atome, on appelle ce nombre <b>le numéro atomique</b> et on le note \(Z\). Ces éléments chimiques, comme le carbone, l'hydrogène ou 
+                                l'oxygène, sont classés dans le <b>tableau périodique des éléments</b>. Dans celui-ci les éléments chimiques sont ordonnés par 
+                                <b>famille chimiques</b> qui sont légendées par couleurs dans le tableau ci-dessous. Chaque famille chimique possède des propriétés communes. 
+                                Par exemple, la famille des gaz nobles contenue dans la dernière colonne est une famille d'éléments 
+                                chimiques de gaz monoatomiques incolores, inodores et chimiquement très peu réactifs.
+
+                                <div class="my-4" style="width: min(800px, 100%);">
+                                    <a title="Scaler,Michka B, CC BY-SA 3.0 &lt;https://creativecommons.org/licenses/by-sa/3.0&gt;, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Tableau_p%C3%A9riodique_des_%C3%A9l%C3%A9ments.svg" target="_blank">
+                                        <img class="img-fluid" alt="Tableau périodique des éléments" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Tableau_p%C3%A9riodique_des_%C3%A9l%C3%A9ments.svg/1024px-Tableau_p%C3%A9riodique_des_%C3%A9l%C3%A9ments.svg.png">
+                                    </a>
+                                    <a href="https://commons.wikimedia.org/wiki/File:Tableau_p%C3%A9riodique_des_%C3%A9l%C3%A9ments.svg">Scaler,Michka B</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+                                </div>
+
+                                Dans le tableau périodique les éléments sont représentés comme ceci : 
+
+                                <div class="my-3" style="width: min(500px, 100%);">
+                                    <img src="./images/legende.jpg" class="img-fluid" alt="">
+                                </div>
+
+                                et comme vous l'aurez peut être remarqué les éléments chimiques sont classés par numéro atomique croissant allant de 1 pour 
+                                l'hydrogène, jusqu'a 118 pour l'oganesson.
+
+                                <div class="my-2">
+                                    <h5>Le noyau d'un élément chimique</h5>
+                                </div>
+                                Les éléments chimiques sont donc associés à un numéro atomique \(Z\) (le nombre de proton), mais pour pouvoir décrire complètement le noyau 
+                                de l'élément il faut aussi préciser son nombre de neutrons. Pour ce faire, la représentation utilisée est la suivante :
+                                
+                                <div class="my-2" style="width: min(400px, 60%);">
+                                    <img class="img-fluid" src="./images/noyau.png" alt="">
+                                </div>
+
+                                Ou \(A\) est aussi appelé nombre de masse et on rappelle qu'un nucléon est un proton ou un neutron.
+
+                                <hr>
+
+                                <!-- <h5>Le cortège électronique d'un atome</h5>
+                                
+                            <h4>Stabilité</h4> -->
+                                
+                        </div>
+                        <div class="my-2 d-none d-md-block" style="overflow: scroll;">
+                            <iframe src="https://phet.colorado.edu/sims/html/build-an-atom/latest/build-an-atom_en.html"
+                            width="800"
+                            height="600"
+                            allowfullscreen>
+                            </iframe>
+                        </div>
+
+             <!-- <h3>Les ions</h3>  -->
+                
+            </div>
+
+            <div style="height: 600px;"></div>
+
+            
+
+        </div>
+
+
+        
+        
+
+        
+
+
+
+
+
+    <!--Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!--Bootstrap popover-->
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+    
+</body>
+</html>
