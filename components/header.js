@@ -48,6 +48,9 @@ class Header extends HTMLElement {
                             </ul>
                         </li>
                         <li class="nav-item">
+                            <a class="nav-link" href="/Trace-écrite/trace-ecrite.html">Trace-écrite</a>
+                        </li>
+                        <li class="nav-item">
                             <a class="nav-link" href="/ressources.html">Ressources</a>
                         </li>
                     </ul>
