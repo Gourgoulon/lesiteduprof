@@ -464,6 +464,88 @@
                                     </div>
                                 </div>
 
+                                <h4>Méthode : représenter une molécule</h4>
+                                <div class="row">
+                                    <div class="col-4">
+                                      <div class="list-group" id="list-tab" role="tablist">
+                                        <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Etape 1</a>
+                                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Etape 2</a>
+                                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-bs-toggle="list" href="#list-messages" role="tab" aria-controls="list-messages">Etape 3</a>
+                                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Etape 4</a>
+                                      </div>
+                                    </div>
+                                    <div class="col-8">
+                                      <div class="tab-content" id="nav-tabContent">
+                                        <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                                            A partir de la formule brute, pour chaque atome présent dans la molécule déterminer son nombre d’électrons 
+                                            de valence et le nombre d’électrons dont il a besoin pour devenir stable. Vous pouvez vous aidez d'un tableau.
+                                            
+                                            <p class="mt-2"><b>Exemple de la molécule d'eau \(H_2O\)</b></p>
+                                            <table class="table table-bordered">
+                                                <thead class="table-dark">
+                                                  <tr>
+                                                    <th scope="col">Atomes</th>
+                                                    <th scope="col">Numéro atomique (Z)</th>
+                                                    <th scope="col">Configuration électronique</th>
+                                                    <th scope="col">Nombre d'électrons de valence</th>
+                                                    <th scope="col">Nombre d'électron à gagner pour devenir stable</th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                  <tr>
+                                                    <th scope="row">H</th>
+                                                    <td>1</td>
+                                                    <td>\(1s^1\)</td>
+                                                    <td>1</td>
+                                                    <td>1</td>
+                                                  </tr>
+                                                  <tr>
+                                                    <th scope="row">O</th>
+                                                    <td>8</td>
+                                                    <td>\(1s^22s^22p^4\)</td>
+                                                    <td>6</td>
+                                                    <td>2</td>
+                                                  </tr>
+
+                                                </tbody>
+                                              </table>
+
+                                        </div>
+                                        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                                            Représenter chaque atome en écrivant le symbole de l’élément chimique entouré de ses électrons de valence
+
+                                            <p class="mt-2"><b>Exemple de la molécule d'eau \(H_2O\)</b></p>
+                                            <div>
+                                                <img class="img-fluid w-50" src="./images/ex-eau.jpg" alt="eau">
+                                            </div>
+
+                                        </div>
+                                        <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                                            Créer des liaison covalentes entre les atomes en fonction du nombre d’électrons dont ils ont besoin pour être stable 
+                                            (une liaison covalente fait gagner un électron à l’atome) chaque liaison covalente représente un doublet 
+                                            d’électrons qu’on appelle doublet liant.
+
+                                            <p class="mt-2"><b>Exemple de la molécule d'eau \(H_2O\)</b></p>
+                                            <div>
+                                                <img class="img-fluid w-50" src="./images/ex-eau2.jpg" alt="eau">
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                                            Représenter les doublets non-liants. Au sein d’un atomes les électrons de valence qui ne servent pas à former des liaisons covalentes se 
+                                            regroupent également par paire pour former des doublets non-liants.
+
+
+                                            <p class="mt-2"><b>Exemple de la molécule d'eau \(H_2O\)</b></p>
+                                            <div>
+                                                <img class="img-fluid w-50" src="./images/ex-eau3.jpg" alt="eau">
+                                            </div>
+                                        </div>
+                                        <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                
+
                                 <div class="my-3 card" style="width: 24rem;">
                                     <img src="./images/activite3.png" class="card-img-top" alt="Activite">
                                     <div class="card-body">
