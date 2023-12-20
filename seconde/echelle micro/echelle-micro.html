@@ -165,7 +165,7 @@
                 </div>
             </div>
 
-            <div class="my-3 border-4 container border border-warning rounded bg-warning rounded bg-opacity-10">
+            <div class="container my-3 border-4 container border border-warning rounded bg-warning rounded bg-opacity-10">
                 <h3>Transition</h3>
                 Lors de ce chapitre une intervention des formateurs m'a encouragé à réaliser plus de mise en activité des élèves. La transition 
                 du cours magistral vers un cours plus centré sur une attitude active des élèves m'oblige à repenser la structure des chapitres. 
@@ -295,7 +295,8 @@
                                     <iframe src="https://digipad.app/p/589704/b17dd6d0ad8af" frameborder="0" width="50%" height="500"></iframe>
                                 </div> -->
 
-                                <div class="card" style="width: 60%;">
+                                <!-- Activité cortege électronique -->
+                                <div class="card" style="width: min(100%,500px);">
                                     <div class="card-header">
                                         Activité
                                     </div>
@@ -343,15 +344,15 @@
 
                                 
                                 
-
-                                <div class="my-3 card" style="width: 24rem;">
+                                <!-- Activité tableau périodique -->
+                                <div class="my-3 card" style="width: min(100%,24rem);">
                                     <img src="./images/activite2.png" class="card-img-top" alt="Activite">
                                     <div class="card-body">
                                       <h5 class="card-title">Activité</h5>
                                       <p class="card-text">L'objectif est de construire les trois premières lignes du tableau périodique en faisant 
                                         apparaître la configuration électronique de chaque élément chimique puis d'établir le lien entre stabilité chimique 
                                         et configuration électronique de valence et en déduire la charge électrique d’ions monoatomiques </p>
-                                      <a href="./pdf/Activite2.pdf" class="btn btn-primary" target="_blank">Voir le doc</a>
+                                      <a href="./pdf/activite2.pdf" class="btn btn-primary" target="_blank">Voir le doc</a>
                                     </div>
                                 </div>
 
@@ -453,7 +454,8 @@
                         
                                 </div>
 
-                                <div class="my-3 card" style="width: 24rem;">
+                                <!-- Activité molécules -->
+                                <div class="my-3 card" style="width: min(100%,24rem);">
                                     <img src="./images/Molecule_C.png" class="card-img-top" alt="Activite">
                                     <div class="card-body">
                                       <h5 class="card-title">Activité</h5>
@@ -464,9 +466,10 @@
                                     </div>
                                 </div>
 
+                                <!-- Methode -->
                                 <h4>Méthode : représenter une molécule</h4>
                                 <div class="row">
-                                    <div class="col-4">
+                                    <div class="col-sm-12 col-md-4 ">
                                       <div class="list-group" id="list-tab" role="tablist">
                                         <a class="list-group-item list-group-item-action active" id="list-home-list" data-bs-toggle="list" href="#list-home" role="tab" aria-controls="list-home">Etape 1</a>
                                         <a class="list-group-item list-group-item-action" id="list-profile-list" data-bs-toggle="list" href="#list-profile" role="tab" aria-controls="list-profile">Etape 2</a>
@@ -474,41 +477,43 @@
                                         <a class="list-group-item list-group-item-action" id="list-settings-list" data-bs-toggle="list" href="#list-settings" role="tab" aria-controls="list-settings">Etape 4</a>
                                       </div>
                                     </div>
-                                    <div class="col-8">
+                                    <div class="col-sm-12 col-md-8">
                                       <div class="tab-content" id="nav-tabContent">
                                         <div class="tab-pane fade show active" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
                                             A partir de la formule brute, pour chaque atome présent dans la molécule déterminer son nombre d’électrons 
                                             de valence et le nombre d’électrons dont il a besoin pour devenir stable. Vous pouvez vous aidez d'un tableau.
                                             
                                             <p class="mt-2"><b>Exemple de la molécule d'eau \(H_2O\)</b></p>
-                                            <table class="table table-bordered">
-                                                <thead class="table-dark">
-                                                  <tr>
-                                                    <th scope="col">Atomes</th>
-                                                    <th scope="col">Numéro atomique (Z)</th>
-                                                    <th scope="col">Configuration électronique</th>
-                                                    <th scope="col">Nombre d'électrons de valence</th>
-                                                    <th scope="col">Nombre d'électron à gagner pour devenir stable</th>
-                                                  </tr>
-                                                </thead>
-                                                <tbody>
-                                                  <tr>
-                                                    <th scope="row">H</th>
-                                                    <td>1</td>
-                                                    <td>\(1s^1\)</td>
-                                                    <td>1</td>
-                                                    <td>1</td>
-                                                  </tr>
-                                                  <tr>
-                                                    <th scope="row">O</th>
-                                                    <td>8</td>
-                                                    <td>\(1s^22s^22p^4\)</td>
-                                                    <td>6</td>
-                                                    <td>2</td>
-                                                  </tr>
-
-                                                </tbody>
-                                              </table>
+                                            <div style="overflow: scroll;">
+                                                <table class="table table-bordered">
+                                                    <thead class="table-dark">
+                                                      <tr>
+                                                        <th scope="col">Atomes</th>
+                                                        <th scope="col">Numéro atomique (Z)</th>
+                                                        <th scope="col">Configuration électronique</th>
+                                                        <th scope="col">Nombre d'électrons de valence</th>
+                                                        <th scope="col">Nombre d'électron à gagner pour devenir stable</th>
+                                                      </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                      <tr>
+                                                        <th scope="row">H</th>
+                                                        <td>1</td>
+                                                        <td>\(1s^1\)</td>
+                                                        <td>1</td>
+                                                        <td >1</td>
+                                                      </tr>
+                                                      <tr>
+                                                        <th scope="row">O</th>
+                                                        <td>8</td>
+                                                        <td>\(1s^22s^22p^4\)</td>
+                                                        <td>6</td>
+                                                        <td >2</td>
+                                                      </tr>
+    
+                                                    </tbody>
+                                                </table>
+                                            </div>
 
                                         </div>
                                         <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
@@ -516,7 +521,7 @@
 
                                             <p class="mt-2"><b>Exemple de la molécule d'eau \(H_2O\)</b></p>
                                             <div>
-                                                <img class="img-fluid w-50" src="./images/ex-eau.jpg" alt="eau">
+                                                <img class="img-fluid" style="width: min(100%,500px);" src="./images/ex-eau.jpg" alt="eau">
                                             </div>
 
                                         </div>
@@ -527,7 +532,7 @@
 
                                             <p class="mt-2"><b>Exemple de la molécule d'eau \(H_2O\)</b></p>
                                             <div>
-                                                <img class="img-fluid w-50" src="./images/ex-eau2.jpg" alt="eau">
+                                                <img class="img-fluid" style="width: min(100%,500px);" src="./images/ex-eau2.jpg" alt="eau">
                                             </div>
                                         </div>
                                         <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
@@ -537,21 +542,36 @@
 
                                             <p class="mt-2"><b>Exemple de la molécule d'eau \(H_2O\)</b></p>
                                             <div>
-                                                <img class="img-fluid w-50" src="./images/ex-eau3.jpg" alt="eau">
+                                                <img class="img-fluid" style="width: min(100%,500px);" src="./images/ex-eau3.jpg" alt="eau">
                                             </div>
                                         </div>
                                         <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">...</div>
                                       </div>
                                     </div>
-                                  </div>
-                                
+                                </div>
 
-                                <div class="my-3 card" style="width: 24rem;">
+                                <!-- Activité Schéma de Lewis -->
+                                <div class="my-3 card" style="width: min(100%,24rem);">
+                                    <img src="./images/AE_molecule.png" class="card-img-top" alt="Activite">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Activité</h5>
+                                        <p class="card-text">
+                                            L'objectif est de maîtriser la notion de doublet liant (liaison covalente) et doublet non liant. De 
+                                            savoir représenter le <b>schéma de Lewis</b> d’une molécule et de savoir exploiter un schéma de Lewis. 
+                                            Enfin il s'agit de pouvoir associer qualitativement l’énergie d’une liaison entre deux atomes à 
+                                            l’énergie nécessaire pour rompre cette liaison. 
+                                        </p>
+                                        <a href="./pdf/AE_molecule.pdf" class="btn btn-primary" target="_blank">Voir le doc</a>
+                                    </div>
+                                </div>
+                                
+                                <!-- Activité quantité de matière -->
+                                <div class="my-3 card" style="width: min(100%,24rem);">
                                     <img src="./images/activite3.png" class="card-img-top" alt="Activite">
                                     <div class="card-body">
                                       <h5 class="card-title">Activité</h5>
-                                      <p class="card-text">L'objectif est d'essayer de réaliser une synthèse sans raisonner avec la notion de quantité de 
-                                        matière, pour en illustrer l'importance
+                                      <p class="card-text">L'objectif est d'essayer de réaliser une synthèse de l'eau sans raisonner avec la notion de quantité de 
+                                        matière, pour en illustrer l'importance.
                                       </p>
                                       <a href="./pdf/activite3.pdf" class="btn btn-primary" target="_blank">Voir le doc</a>
                                     </div>
