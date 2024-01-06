@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>solutions-aqueuse</title>
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--LaTex-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <script src="/components/header.js" type="text/javascript" defer></script>
+    <style>
+        a.def {
+            color: rgb(6, 30, 215);
+            text-decoration: none;
+        }
+        a.def:hover {
+            cursor: pointer;
+            color:rgba(28, 148, 148, 0.613);
+        }
+        .zoom {
+        transition: transform .2s; /* Animation */
+        }
+
+        .zoom:hover {
+        transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+    </style>
+</head>
+<body>
+
+        <header-component></header-component>
+
+        <div class="container">
+            <!--Title-->
+        <div class="container-fluid my-5">
+            <h1 class="text-center" style="font-size: 60px; color:rgb(0, 17, 52);">Exercices</h1>
+        </div>
+
+        <hr>
+    
+
+            <div class="container my-4">
+                <h1>Exercice 1 : Sélection des échelles spatiales et temporelles</h1>
+                <p>Choisissez l'échelle spatiale et temporelle appropriée pour décrire le mouvement du système dans chacune des situations suivantes et justifiez votre réponse.</p>
+                
+                <!-- Liste des situations -->
+                <ol>
+                <li>Une balle lancée par un joueur de basket pour un tir à trois points.</li>
+                <li>Un avion de ligne en vol transatlantique de Paris à New York.</li>
+                <li>Une plaque tectonique se déplaçant de quelques centimètres par an.</li>
+                <li>Une fourmi parcourant une distance de quelques mètres dans un jardin.</li>
+                <li>La rotation d'une aiguille de montre.</li>
+                <li>Un athlète courant le marathon.</li>
+                <li>Les mouvements des aiguilles sur un cadran solaire.</li>
+                <li>La croissance d'un arbre au fil des saisons.</li>
+                <li>Une étoile filante traversant le ciel nocturne.</li>
+                <li>Les mouvements d'une bactérie observés au microscope.</li>
+                </ol>
+                
+                <!-- Bouton pour afficher la correction -->
+                <p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#correction" aria-expanded="false" aria-controls="correction">
+                    Voir la correction
+                </button>
+                </p>
+                
+                <!-- Contenu de l'accordéon pour la correction -->
+                <div class="collapse" id="correction">
+                <div class="card card-body">
+                    <strong>Correction de l'exercice :</strong>
+                    <ol>
+                    <li>Échelle spatiale : mètres ; Échelle temporelle : secondes. La balle parcourt une courte distance en un temps bref, idéal pour l'analyse du tir.</li>
+                    <li>Échelle spatiale : kilomètres ; Échelle temporelle : heures. L'avion couvre de grandes distances sur une période prolongée, approprié pour les vols long-courriers.</li>
+                    <li>Échelle spatiale : kilomètres ; Échelle temporelle : années. Le mouvement des plaques est très lent et sur de grandes échelles géographiques.</li>
+                    <li>Échelle spatiale : mètres ; Échelle temporelle : minutes. Une fourmi se déplace rapidement sur une petite échelle.</li>
+                    <li>Échelle spatiale : millimètres ; Échelle temporelle : secondes. La précision et la rapidité sont nécessaires pour observer la rotation de l'aiguille.</li>
+                    <li>Échelle spatiale : kilomètres ; Échelle temporelle : heures. La distance parcourue pendant un marathon et le temps pris sont significatifs à cette échelle.</li>
+                    <li>Échelle spatiale : centimètres ; Échelle temporelle : heures. Les mouvements lents du cadran solaire sont mieux observés sur une longue période.</li>
+                    <li>Échelle spatiale : mètres ; Échelle temporelle : années. La croissance d'un arbre est un processus lent qui se mesure en années.</li>
+                    <li>Échelle spatiale : kilomètres ; Échelle temporelle : secondes. Les étoiles filantes traversent rapidement le ciel et couvrent de longues distances.</li>
+                    <li>Échelle spatiale : micromètres ; Échelle temporelle : secondes. Les bactéries sont petites et leurs mouvements rapides nécessitent une observation minutieuse.</li>
+                    </ol>
+                </div>
+                </div>
+            
+            </div>
+
+        <hr>
+
+            <div class="container my-4">
+                <h2>Exercice 2 : Choix du référentiel</h2>
+                <p>Pour chacune des situations suivantes, choisissez le référentiel le plus approprié pour décrire le mouvement du système et justifiez votre choix.</p>
+                
+                <!-- Liste des situations -->
+                <ol>
+                <li>Un passager marchant dans un train qui démarre. Devriez-vous choisir un référentiel lié au train ou à la gare pour décrire le mouvement du passager ? Justifiez votre choix.</li>
+                <li>Un satellite en orbite autour de la Terre. Quel serait le référentiel le plus approprié : un référentiel géocentrique (lié à la Terre) ou un référentiel héliocentrique (lié au Soleil) ? Expliquez pourquoi.</li>
+                </ol>
+                
+                <!-- Bouton pour afficher la correction -->
+                <p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#correctionRef" aria-expanded="false" aria-controls="correctionRef">
+                    Voir la correction
+                </button>
+                </p>
+                
+                <!-- Contenu de l'accordéon pour la correction -->
+                <div class="collapse" id="correctionRef">
+                <div class="card card-body">
+                    <strong>Correction de l'exercice :</strong>
+                    <ol>
+                    <li>Le référentiel lié au train est plus approprié pour décrire le mouvement du passager. En effet, dans ce référentiel, on peut simplement considérer la vitesse du passager par rapport au train. Utiliser un référentiel lié à la gare compliquerait l'analyse en combinant la vitesse du train avec celle du passager.</li>
+                    <li>Pour un satellite en orbite autour de la Terre, le référentiel géocentrique est généralement plus adapté. Ce référentiel permet de décrire le mouvement du satellite par rapport à la Terre, ce qui est utile pour des applications comme la communication ou la surveillance terrestre. Un référentiel héliocentrique serait moins pertinent pour la plupart des observations et utilisations courantes d'un satellite en orbite terrestre.</li>
+                    </ol>
+                </div>
+                </div>
+            </div>
+
+          <hr>
+        
+          <div class="container my-4">
+            <h2>Exercice 3 : Modélisation d'un solide en rotation et translation</h2>
+            <p>Considérez une roue de vélo qui roule sans glisser sur une surface plane. Cette roue effectue à la fois un mouvement de translation (déplacement en ligne droite) et de rotation (tourne autour de son axe).</p>
+            <p>Analysez la trajectoire de deux points différents de la roue pour comprendre comment le choix du point affecte la description du mouvement.</p>
+            
+            <!-- Questions de l'exercice -->
+            <ol>
+                <li>Décrivez la trajectoire que vous attendez pour le point situé au centre de la roue de vélo.</li>
+                <li>Analysez la trajectoire d'un point situé à l'extrémité de la roue, vous pouvez tenter de la dessiner (par exemple, un point sur le bord extérieur de la roue).</li>
+            </ol>
+            
+            <!-- Bouton pour afficher la correction -->
+            <p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#correctionCycloide" aria-expanded="false" aria-controls="correctionCycloide">
+                    Voir la correction
+                </button>
+            </p>
+            
+            <!-- Contenu de l'accordéon pour la correction -->
+            <div class="collapse" id="correctionCycloide">
+                <div class="card card-body">
+                    <strong>Correction de l'exercice :</strong>
+                    <ol>
+                        <li>Le point situé au centre de la roue de vélo se déplace en ligne droite, ce qui représente le mouvement de translation rectiligne de la roue.</li>
+                        <li>La trajectoire d'un point situé à l'extrémité de la roue est une cycloïde, comme illustré ci-dessous :</li>
+                    </ol>
+                    <img class="img-fluid" id="cycloide-image" src="./images/cycloide.png" alt="Trajectoire cycloïde de l'extrémité de la roue">
+                </div>
+            </div>
+        </div>
+
+          <hr>
+
+          <div class="container my-4">
+            <h2>Exercice 4 : Comprendre les vecteurs de déplacement, vitesse moyenne et vitesse instantanée</h2>
+            
+            <!-- Instructions de l'exercice -->
+            <p class="lead">
+                Objectif : Cet exercice a pour but de clarifier la différence entre le vecteur déplacement, le vecteur vitesse moyenne et le vecteur vitesse instantanée d'un point en mouvement.
+            </p>
+            <p><i>Prérequis : Assurez-vous de comprendre la notion de vecteur, qui est une quantité caractérisée par une magnitude (ou norme), une direction, un sens et un point d'application.</i></p>
+
+        
+            <p>
+                Imaginez un coureur qui parcourt une distance de 100 mètres en ligne droite de A (point de départ) à B (point d'arrivée). 
+                Il réalise cette distance en 10 secondes. À mi-chemin, sa vitesse instantanée est enregistrée à 12 m/s par un radar.
+            </p>
+            
+            <ol>
+                <li>Dessinez le vecteur déplacement du coureur de A vers B.</li>
+                <li>Calculez la vitesse moyenne du coureur et dessinez le vecteur vitesse moyenne sur le même schéma.</li>
+                <li>Représentez le vecteur vitesse instantanée à mi-chemin en utilisant les informations fournies par le radar.</li>
+            </ol>
+            <!-- Bouton pour afficher la correction -->
+            <p>
+                <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#correctionVecteurs" aria-expanded="false" aria-controls="correctionVecteurs">
+                    Voir la correction
+                </button>
+            </p>
+            
+            <!-- Contenu de l'accordéon pour la correction -->
+            <div class="collapse" id="correctionVecteurs">
+                <div class="card card-body">
+                    <strong>Correction de l'exercice :</strong>
+                    <p>La correction suivante contient les illustrations qui représentent les différents vecteurs étudiés.</p>
+                    <p><strong>Partie 1 :</strong> Vecteur Déplacement de A vers B</p>
+                    <img src="./images/depl.png" alt="Vecteur Déplacement de A vers B" class="img-fluid">
+                    <p><strong>Partie 2 :</strong> Vecteur Vitesse Moyenne de A vers B</p>
+                    <img src="./images/vit-moy.png" alt="Vecteur Vitesse Moyenne de A vers B" class="img-fluid">
+                    <p><strong>Partie 3 :</strong> Vecteur Vitesse Instantanée de A vers B</p>
+                    <img src="./images/vit-inst.png" alt="Vecteur Vitesse Instantanée de A vers B" class="img-fluid">
+                </div>
+            </div>
+        </div>
+        
+        
+
+
+        </div>
+        
+
+
+
+
+
+    <!--Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!-- Liens vers les fichiers JS de Bootstrap et ses dépendances -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.9/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!--Bootstrap popover-->
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+    
+</body>
+</html>
