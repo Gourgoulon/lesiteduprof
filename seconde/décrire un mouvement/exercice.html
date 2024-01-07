@@ -174,6 +174,7 @@
                 <li>Dessinez le vecteur déplacement du coureur de A vers B.</li>
                 <li>Calculez la vitesse moyenne du coureur et dessinez le vecteur vitesse moyenne sur le même schéma.</li>
                 <li>Représentez le vecteur vitesse instantanée à mi-chemin en utilisant les informations fournies par le radar.</li>
+                <li>Le mouvement du coureur est-il uniforme ? justifier votre réponse.</li>
             </ol>
             <!-- Bouton pour afficher la correction -->
             <p>
@@ -193,8 +194,83 @@
                     <img src="./images/vit-moy.png" alt="Vecteur Vitesse Moyenne de A vers B" class="img-fluid">
                     <p><strong>Partie 3 :</strong> Vecteur Vitesse Instantanée de A vers B</p>
                     <img src="./images/vit-inst.png" alt="Vecteur Vitesse Instantanée de A vers B" class="img-fluid">
+                    <p>Le mouvement du coureur n'est pas uniforme car sa vitesse moyenne est différente de sa vitesse instantanée a mi chemin. Il y a surement une phase d'accélération au début et une phase de décélération à la fin. En tout cas la vitesse n'est pas constante sur l'entièreté du parcours</p>
                 </div>
             </div>
+        </div>
+
+        <hr>
+
+        <div class="container my-4">
+            <h2>Exercice 5 : Analyse du Tir à Trois Points en Basketball</h2>
+            <p class="lead">
+                Objectif : Analyser en détail un tir à trois points au basketball, en mettant l'accent sur le choix du référentiel, la trajectoire, le point du système à étudier, et la représentation des vecteurs de vitesse instantanée.
+            </p>
+        
+            <p><i>
+                Prérequis : Compréhension des notions de trajectoire, de vecteurs, de référentiel en physique, et des connaissances de base en programmation Python (pour la partie avancée).
+            </i></p>
+
+            <h5>Partie 1 : Définition du Référentiel et Choix du Point du Système</h3>
+            <p>Choisissez un référentiel approprié pour l'analyse du tir et discutez de la pertinence de ce choix. Déterminez également quel point du ballon (centre, surface, etc.) serait le plus judicieux à étudier pour comprendre le mouvement.</p>
+        
+            <h5>Partie 2 : Tracé de la Trajectoire et des Vecteurs de Vitesse</h3>
+            <p>Utilisez les coordonnées suivantes pour tracer manuellement la trajectoire du ballon et représentez les vecteurs de vitesse instantanée pour chaque point. Précisez l'échelle choisie (par exemple, "1 cm représente 1 m/s").</p>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>t (s)</th>
+                        <th>x (m)</th>
+                        <th>y (m)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr><td>0</td><td>0</td><td>2</td></tr>
+                    <tr><td>0.5</td><td>1</td><td>2.8</td></tr>
+                    <tr><td>1.0</td><td>2</td><td>3.3</td></tr>
+                    <tr><td>1.5</td><td>3</td><td>3.5</td></tr>
+                    <tr><td>2.0</td><td>4</td><td>3.4</td></tr>
+                    <tr><td>2.5</td><td>5</td><td>3.2</td></tr>
+                    <tr><td>3.0</td><td>6</td><td>2.9</td></tr>
+                </tbody>
+            </table>
+        
+            <h5>Partie 3 : Analyse et Réflexion</h3>
+            <p>Analysez comment les vecteurs de vitesse instantanée aident à comprendre le mouvement du ballon. Discutez de la manière dont ces vecteurs complètent l'information fournie par la trajectoire seule.</p>
+        
+            <h5>Partie 4 : Extension pour les Élèves Avancés (Utilisation de Python)</h3>
+            <p>En tant que défi supplémentaire, les élèves qui le souhaitent peuvent refaire l'exercice en utilisant Python pour tracer la trajectoire et calculer les vecteurs de vitesse instantanée. Cette partie est recommandée pour les élèves à l'aise avec la programmation.</p>
+        
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#correctionExercice5" aria-expanded="false" aria-controls="correctionExercice5">
+                Voir la correction
+            </button>
+        
+            <div class="collapse" id="correctionExercice5">
+                <div class="card card-body">
+                    <ol>
+                        <li><p>Le référentiel choisi est le référentiel terrestre, avec le panier comme point de référence.
+                            Le point le plus judicieux du ballon à étudier est son centre, car cela simplifie l'analyse en évitant de tenir compte de la rotation du ballon.</p>
+                        </li>
+                        <li>
+                            <p>L'image ci-dessous montre la trajectoire et les vecteurs de vitesse instantanée du tir à trois points. Les vecteurs rouges représentent la vitesse et la direction du ballon à différents instants, illustrant clairement la dynamique du mouvement.</p>
+                            <img src="./images/traj-vit.png" alt="Trajectoire et vecteur vitesse" class="img-fluid">
+                        </li>
+                        <li>
+                            Les vecteurs de vitesse instantanée montrent que le ballon atteint sa vitesse maximale en milieu de trajectoire et ralentit à l'approche du panier.
+                            Ces vecteurs apportent une dimension supplémentaire à la simple trajectoire, en offrant des informations sur la vitesse et la direction du mouvement à chaque instant.
+                        </li>
+                        <li>
+                            A vous de jouer ;) 
+                        </li>
+                    </ol>
+
+                    
+                </div>
+            </div>
+
+            <hr>
+
+            
         </div>
         
         
