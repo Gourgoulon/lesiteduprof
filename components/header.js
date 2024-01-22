@@ -26,7 +26,7 @@ class Header extends HTMLElement {
                                 <li><a class="dropdown-item" href="/seconde/ondes et signaux/lumiere/lumiere.html">Lumière</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="/seconde/décrire un mouvement/main.html">Décrire un mouvement</a></li>
-    
+                                <li><a class="dropdown-item" href="/seconde/Modéliser une action sur un système/main.html">Modéliser une action sur un système</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
