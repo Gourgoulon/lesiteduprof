@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modeliser-une-action-sur-un-systeme</title>
+    <!--Bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <!--LaTex-->
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+    <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+    </script>
+    <script src="/components/header.js" type="text/javascript" defer></script>
+    <style>
+        a.def {
+            color: rgb(6, 30, 215);
+            text-decoration: none;
+        }
+        a.def:hover {
+            cursor: pointer;
+            color:rgba(28, 148, 148, 0.613);
+        }
+        .zoom {
+        transition: transform .2s; /* Animation */
+        }
+
+        .zoom:hover {
+        transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+        }
+    </style>
+</head>
+<body>
+
+        <header-component></header-component>
+
+        <div class="container-fluid my-5">
+            <h1 class="text-center" style="font-family:Arial, Helvetica, sans-serif ; font-size: 50px; color:rgb(8, 89, 85);">Modéliser une action sur un système</h1>
+        </div>
+
+        <div class="container my-5">
+            <div class="row row-cols-2 row-cols-md-5 g-4">
+                <div class="col zoom">
+                    <a href="./activite-cours.html" style="text-decoration: none; color: black;">
+                  <div class="card h-100">
+                    <img src="/images/activite_cours.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Activités cours</h5>
+                      <p class="card-text">S'impliquer pour mieux retenir</p>
+                    </div>
+                  </div>
+                </a>
+                </div>
+                <div class="col zoom">
+                    <a href="./activite-experimentale.html" style="text-decoration: none; color: black;">
+                  <div class="card h-100">
+                    <img src="/images/activite_experimentale.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Activités expérimentales</h5>
+                      <p class="card-text">S'approprier le cours en manipulant</p>
+                    </div>
+                  </div>
+                </a>
+                </div>
+                <div class="col zoom">
+                    <a href="./Bilan-cours.html" style="text-decoration: none; color: black;">
+                  <div class="card h-100">
+                    <img src="/images/cours.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Bilan du cours</h5>
+                      <p class="card-text">La synthèse de vos apprentissages</p>
+                    </div>
+                  </div>
+                </a>
+                </div>
+                <div class="col zoom">
+                  <a href="./exercice.html" style="text-decoration: none; color: black;">
+                  <div class="card h-100">
+                    <img src="/images/exercice.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Exercices</h5>
+                      <p class="card-text">Appliquer ce que vous avez appris</p>
+                    </div>
+                  </div>
+                </a>
+                </div>
+                <div class="col zoom">
+                    <a href="./evaluation.html" style="text-decoration: none; color: black;">
+                        <div class="card h-100">
+                            <img src="/images/evaluation.png" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Evaluation</h5>
+                                <p class="card-text">Vérifier que les compétences sont acquises</p>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" style="height: 200px;">
+        </div>
+
+        
+
+
+
+
+
+    <!--Bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <!--Bootstrap popover-->
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+    
+</body>
+</html>
