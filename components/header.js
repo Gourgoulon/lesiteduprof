@@ -27,6 +27,7 @@ class Header extends HTMLElement {
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="/seconde/décrire un mouvement/main.html">Décrire un mouvement</a></li>
                                 <li><a class="dropdown-item" href="/seconde/Modéliser une action sur un système/main.html">Modéliser une action sur un système</a></li>
+                                <li><a class="dropdown-item" href="/seconde/principe d'inertie/main.html">principe d'inertie</a></li>
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
