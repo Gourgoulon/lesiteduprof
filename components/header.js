@@ -21,6 +21,7 @@ class Header extends HTMLElement {
                                 <li><a class="dropdown-item" href="/seconde/corps-purs-et-melange.html">Corps purs et mélanges</a></li>
                                 <li><a class="dropdown-item" href="/seconde/solution-aqueuse/solution-aqueuse.html">Solution aqueuse</a></li>
                                 <li><a class="dropdown-item" href="/seconde/echelle micro/main.html">Echelle microscopique</a></li>
+                                <li><a class="dropdown-item" href="/seconde/transformation physique/main.html">Transformation Physique</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="/seconde/signaux-sonores/signaux-sonores.html">Signaux sonores</a></li>
                                 <li><a class="dropdown-item" href="/seconde/ondes et signaux/lumiere/lumiere.html">Lumière</a></li>
@@ -35,8 +36,6 @@ class Header extends HTMLElement {
                                 Travaux-pratiques
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="/TP/compte-rendu.html">Compte-rendu</a></li>
-                                <li><hr class="dropdown-divider"></li>
                                 <li><a class="dropdown-item" href="/TP/support.html">Support</a></li>
                             </ul>
                         </li>
@@ -49,9 +48,6 @@ class Header extends HTMLElement {
                                 <li><a class="dropdown-item" href="/DS/Sujet-et-corrige.html">Sujets et corrigés</a></li>
                                 <li><a class="dropdown-item" href="/DS/notes.html">Notes</a></li>
                             </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/Trace-écrite/trace-ecrite.html">Trace-écrite</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="/ressources.html">Ressources</a>
